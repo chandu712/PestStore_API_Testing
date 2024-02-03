@@ -1,0 +1,164 @@
+{
+	"id": "23d4f643-658f-4c3c-b0ba-482ae1622539",
+	"name": "PetStore_Pet_XMLResponse",
+	"timestamp": "2024-02-02T23:57:35.095Z",
+	"collection_id": "27946596-9d2f5502-e80d-429d-b7d0-c4c7324bc3c2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-02T23:57:33.047Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fa6fdba7-c399-4ca0-a693-9617f95c0387",
+			"name": "Find Pet",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854775807",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 200": true,
+				"Verify the petid": true
+			},
+			"testPassFailCounts": {
+				"status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the petid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"status code is 200": true,
+					"Verify the petid": true
+				}
+			]
+		},
+		{
+			"id": "2df437de-89cb-416d-88a5-a084801f6f52",
+			"name": "Add a new Pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify Pet name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Pet name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify Pet name": true
+				}
+			]
+		},
+		{
+			"id": "246f2180-e764-4181-8baa-f11f3ffe42a6",
+			"name": "Update existing Pet details",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Verify pet name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify pet name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Verify pet name": true
+				}
+			]
+		},
+		{
+			"id": "063b1464-c772-45bd-acbe-6fe8487b3112",
+			"name": "Deletes a pet",
+			"url": "https://petstore.swagger.io/v2/pet/1",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 200": true
+			},
+			"testPassFailCounts": {
+				"status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 332,
+	"collection": {
+		"requests": [
+			{
+				"id": "fa6fdba7-c399-4ca0-a693-9617f95c0387",
+				"method": "GET"
+			},
+			{
+				"id": "2df437de-89cb-416d-88a5-a084801f6f52",
+				"method": "POST"
+			},
+			{
+				"id": "246f2180-e764-4181-8baa-f11f3ffe42a6",
+				"method": "PUT"
+			},
+			{
+				"id": "063b1464-c772-45bd-acbe-6fe8487b3112",
+				"method": "DELETE"
+			}
+		]
+	}
+}
